@@ -1,0 +1,47 @@
+ body {
+     background: url("./bgi.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+  #heading
+{
+            color: black;
+                background: rgb(252, 151, 93);
+                height: 50px;
+                width: 950px;
+                text-align:center;
+                margin: auto;
+}
+
+ #content {
+     display: flex;
+     background: rgba(60, 52, 78, 0.7);
+     height: 450px;
+     width: 900px;
+     margin: auto;
+     margin-top: 100px;
+     justify-content: space-between;
+ }
+
+ #title {
+    display: flex;
+        background: rgba(50, 29, 248, 0.7);
+        height: 65px;
+        width: 900px;
+        margin: auto;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+ img {
+     height: 120px;
+     width: 120px;
+     border: 3px solid rgb(69, 70, 68);
+     /* border-radius: 50%; */
+     border-top-left-radius: 30%;
+     border-bottom-right-radius: 30%;
+
+     margin-top: 10%;
+     margin-left: 10px;
+ }
